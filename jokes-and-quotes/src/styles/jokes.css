@@ -1,0 +1,42 @@
+.body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  font-family: cursive;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  background-color: blueviolet;
+  padding: 100px;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 50%;
+  height: 35%;
+}
+
+.title {
+  margin: 0;
+  padding-bottom: 50px;
+  font-size: 35px;
+}
+
+.joke-container {
+  padding: 0 10px 35px;
+}
+
+.button-generator {
+  font-size: large;
+  padding: 10px 35px;
+  background-color: #156dff;
+  color: black;
+  border-radius: 10px;
+}
+
+.button-generator :hover{
+  font-size: 25px;
+  background-color: #71a4f5;
+}
